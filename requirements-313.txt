@@ -1,0 +1,14 @@
+pykrx
+numpy
+pandas
+plotly
+scipy
+pyportfolioopt
+seaborn
+scikit-learn
+finance-datareader
+exchange_calendars
+tqdm
+nbformat
+bs4
+finance-datareader
