@@ -12,3 +12,7 @@ tqdm
 nbformat
 bs4
 finance-datareader
+autokeras
+torch
+torchvision
+torchaudio
