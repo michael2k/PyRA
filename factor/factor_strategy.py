@@ -185,7 +185,7 @@ def get_factor_weight(factor_data: pd.DataFrame,
         return None
 
     # 매수 주식 선정
-    reverse = {'per', 'pbr', 'small', 'lovwol'}
+    reverse = {'per', 'pbr', 'small', 'lowvol'}
     ratio = buying_ratio if strategy_name in reverse else 1 - buying_ratio
     top_quantile = factor_data.quantile(ratio)
     if strategy_name in reverse:
